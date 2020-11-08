@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Azure Devops Toolkit",
+  "version": "1.0",
+
+  "description": "Adds a file link button and copy branch button to Azure Devops for use with VSCode.",
+  "permissions": ["storage"],
+  "icons": {
+    "64": "code.svg"
+  },
+  "options_ui": {"page": "options.html"},
+
+  "content_scripts": [
+    {
+      "matches": ["https://dev.azure.com/*/*/_git/*/pullrequest/*"],
+      "js": ["bundle.js"],
+      "css": ["styles.css"]
+    }
+  ]
+
+}
