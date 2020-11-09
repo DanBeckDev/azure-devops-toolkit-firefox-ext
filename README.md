@@ -17,7 +17,7 @@ This feature adds a button which opens the current file in vs code when someone 
 1. **Clone the repository**
 
 ```
-git pull https://github.com/boreme12/azure-devops-toolkit-chrome-ext.git
+git pull https://github.com/boreme12/azure-devops-toolkit-firefox-ext.git
 ```
 
 2. **Install npm packages in the root directory**
@@ -33,10 +33,10 @@ npm run build-prod
 ```
 
 4. **Add the extension to Firefox**\
-   4.1. Enter about:debugging into the url bar
-   4.2. Click on 'Use This FireFox'
-   4.3. Click on 'Load Temporary Add-on'
-   4.4. Select any file inside of the dist folder
+   1. Enter about:debugging into the url bar
+   2. Click on 'Use This FireFox'
+   3. Click on 'Load Temporary Add-on'
+   4. Select any file inside of the dist folder
 
 ## Configuration (Set your project directory)
 
